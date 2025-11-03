@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
+
 function SmartBites() {
   const [leftoverFood, setLeftoverFood] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [recipes, setRecipes] = useState("");
 
-  const API_KEY = "";
+  const API_KEY = "AIzaSyCuO4CZE8FEXk5c-x-H6CuxpJ5lkvVMMoY";
   const genAI = new GoogleGenerativeAI(API_KEY);
   const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 

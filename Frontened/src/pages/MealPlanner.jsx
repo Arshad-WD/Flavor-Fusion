@@ -30,7 +30,7 @@ useEffect(() => {
       height: '',
     },
     onSubmit: async (values) => {
-      const apiKey = "2d7622f087bc49fbbf159df11150b5b0";
+      const apiKey = "b454610e5dc54658b6caadffe1c85021";
       const { proteinIntake, vegOption, allergy } = values;
 
       try {

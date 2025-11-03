@@ -22,7 +22,7 @@ const RecipePage = () => {
   const [hasMore, setHasMore] = useState(true);
   const observer = useRef();
 
-  const apiKey = "2d7622f087bc49fbbf159df11150b5b0";
+  const apiKey = "b454610e5dc54658b6caadffe1c85021";
 
   // --- Fetch Recipes ---
   const fetchRecipes = useCallback(async () => {
